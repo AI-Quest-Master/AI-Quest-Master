@@ -1,0 +1,20 @@
+# Create the docs directory and subdirectories
+mkdir -p docs/whitepaper docs/API docs/financials docs/media docs/marketing
+
+# Create README.md files for each subdirectory
+touch docs/README.md docs/setup.md docs/roadmap.md docs/strategy.md
+
+# Populate docs/README.md
+cat <<EOL > docs/README.md
+# Documentation
+
+This directory contains all project-related documentation, including:
+
+- Whitepapers
+- API documentation
+- Financial reports
+- Media assets
+- Marketing materials
+EOL
+
+  
